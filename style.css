@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header, footer {
+    background-color: #4a6fa5;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    color: #4a6fa5;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header .profile-pic {
+    width: 120px;    
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+.container {
+    max-width: 800px;  
+    margin: 0 auto;   
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Teaching section styles */
+#teaching {
+  max-width: 900px;     
+  margin: 0 auto 2rem;
+}
+
+#teaching h2 {
+  margin-bottom: 0.75rem;
+}
+
+#teaching h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.teaching-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.25rem 0 1rem;
+}
+
+.teaching-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.15rem 0;
+}
+
+.teaching-list .course {
+  flex: 1 1 auto;
+}
+
+.teaching-list .term {
+  flex: 0 0 auto;
+  white-space: nowrap;  
+}
+
+
+.cv-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.25rem 0 1rem;
+}
+
+.cv-list li {
+  display: flex;
+  justify-content: space-between; 
+  gap: 1rem;
+  padding: 0.2rem 0;
+}
+
+.cv-list .degree {
+  flex: 1 1 auto;
+}
+
+.cv-list .year {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+
+.profile-pic {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile-pic img {
+  width: 150px; 
+  height: auto;
+  border-radius: 50%;
+}
+
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px; 
+}
+
+.contact-line {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.research-block {
+  margin-bottom: 25px;
+}
+
+.research-block h3 {
+  margin-bottom: 5px;
+}
+
+.research-links {
+  font-size: 0.95em;
+  color: #555;
+}
