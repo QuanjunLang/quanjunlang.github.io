@@ -46,7 +46,7 @@ header .profile-pic {
 
 
 .container {
-    max-width: 800px;  
+    max-width: 1050px; 
     margin: 0 auto;   
     padding: 20px;
     line-height: 1.6;
@@ -129,7 +129,7 @@ header .profile-pic {
   text-justify: inter-word;
   line-height: 1.6;
   margin: 0 auto;
-  max-width: 800px; 
+  max-width: 1050px;
 }
 
 .contact-line {
